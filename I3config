@@ -206,7 +206,7 @@ for_window [class="^.*"] border pixel 0
 exec --no-startup-id compton
 
 #wallpaper 
-exec --no-startup-id feh --bg-scale /home/patrykvaio/Pobrane/h5.jpg
+exec --no-startup-id feh --bg-scale /path/to/image
 
 #misc
 exec --no-startup-id flameshot
