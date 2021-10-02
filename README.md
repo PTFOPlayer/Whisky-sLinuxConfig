@@ -5,24 +5,24 @@ Nie nie będę robił readme po angielsku tak jak configi
 Na start mój główny projekt który niektórzy lubią nazywać moim systemem: Nazwany przez moją dziewczynę "Tyfus" Mój wygląd window managera którego używam na codzień.
 
 # Required packages
-## $ Compton/picom
+## Compton/picom
 Bazowane na debianie:
-'''
-sudo apt-get install compton
-'''
+,,,
+$ sudo apt-get install compton
+,,,
 Bazowane na Archu
 sudo pacman -S picom
 
-## $ I3wm (polecam osobiście wersję i3-gaps z repo airblader) 
+### I3wm (polecam osobiście wersję i3-gaps z repo airblader) 
 Instalacja wersji airbladera niestety nie zostanie przeze mnie opisana lecz zapraszam do jego repo:https://github.com/Airblader/i3
 
-## $ Feh 
+### Feh 
 Debiann:
 sudo apt-get install compton
 Arch:
 sudo pacman -S picom
 
-## $ I3 status
+### I3 status
 Zazwyczaj jest razem z i3 domyslnie zainstalowany lecz w przypadku repo Airbladera trzeba samemu doinstalowac 
 Debian:
 sudo apt-get install i3status
