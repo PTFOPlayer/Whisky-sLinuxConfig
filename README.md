@@ -17,14 +17,24 @@ $ sudo pacman -S picom
 ### I3wm (polecam osobiście wersję i3-gaps z repo airblader) 
 Instalacja wersji airbladera niestety nie zostanie przeze mnie opisana lecz zapraszam do jego repo:https://github.com/Airblader/i3
 
-### Feh 
-Debiann:
+Mozna rownierz zainstalowac wersje zwykla lecz nie gwaratnuje poprawnego dzialania gapsow na debianie
 
-$sudo apt-get install compton
+Debian 
+
+$ sudo apt-get install i3
 
 Arch:
 
-$sudo pacman -S picom
+$ sudo pacman -S i3
+
+### Feh 
+Debiann:
+
+$ sudo apt-get install compton
+
+Arch:
+
+$ sudo pacman -S picom
 
 ### I3 status
 Zazwyczaj jest razem z i3 domyslnie zainstalowany lecz w przypadku repo Airbladera trzeba samemu doinstalowac 
