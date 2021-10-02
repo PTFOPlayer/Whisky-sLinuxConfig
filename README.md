@@ -10,7 +10,7 @@ Bazowane na debianie:
 
 $ sudo apt-get install compton
 
-Bazowane na Archu
+Bazowane na Archu:
 
 $ sudo pacman -S picom
 
@@ -19,7 +19,7 @@ Instalacja wersji airbladera niestety nie zostanie przeze mnie opisana lecz zapr
 
 Mozna rownierz zainstalowac wersje zwykla lecz nie gwaratnuje poprawnego dzialania gapsow na debianie
 
-Debian 
+Debian:
 
 $ sudo apt-get install i3
 
@@ -28,7 +28,7 @@ Arch:
 $ sudo pacman -S i3
 
 ### Feh 
-Debiann:
+Debian:
 
 $ sudo apt-get install compton
 
