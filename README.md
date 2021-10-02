@@ -27,6 +27,7 @@ Arch:
 
 $ sudo pacman -S i3
 
+Trzeba jeszcze pamietac o zmianie DE na to i3, w Debianie i Manjaro wystarczy zmienic ustawienie w prawym dolnym rogu ekranu podczas logowania, w Raspbianie wiaze sie to niestety z modyfikowaniem plikow systemu, a w archu jesli sie nie myle to jak nie mamy zianstalowanego zadnego innego DE to domyslnie nam wejdzie do i3
 ### Feh 
 Debian:
 
