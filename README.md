@@ -47,6 +47,18 @@ Arch:
 
 $ sudo pacman -S i3status
 
+### ROFI/Dmenu
+Osoboscie lubie rofi jako ze Dmenu jest zbyt podobne wygladem do status bara
+Mozna dokonac zmiany w configu i3config, wszystko zostalo tam opisane przez tworce i3wm wiec nie powinno byc problemu z zmiana tego lecz i tak trzeba jedo i drugie zainstalowac. Napisze tylko komendy dla ROFI
+
+Debian 
+
+$ sudo apt-get install rofi
+
+Arch:
+
+$ sudo pacman -S rofi
+
 # Linux baza
 Co do bazy: 
 Rekomenduje Archa, Manjaro, Debiana lub Raspbiana jesli pracujemny na czyms z procesorem ARM
