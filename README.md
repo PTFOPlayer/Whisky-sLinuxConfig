@@ -4,8 +4,7 @@ Nie nie będę robił readme po angielsku tak jak configi
 
 Na start mój główny projekt który niektórzy lubią nazywać moim systemem: Nazwany przez moją dziewczynę "Tyfus" Mój wygląd window managera którego używam na codzień.
 
-Opis wszystkiego pojawi się jutro albo pojutrze Narazie tylko wymagane repozytoria/aplikacje/wm do działania wzzystkiego:
-
+#Required packages
 $ Compton 
 $ I3wm (polecam osobiście wersję i3-gaps z repo airblader) 
 $ Feh 
