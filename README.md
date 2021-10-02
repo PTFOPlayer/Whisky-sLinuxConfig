@@ -7,7 +7,9 @@ Na start mój główny projekt który niektórzy lubią nazywać moim systemem: 
 # Required packages
 ## $ Compton/picom
 Bazowane na debianie:
+'''
 sudo apt-get install compton
+'''
 Bazowane na Archu
 sudo pacman -S picom
 
