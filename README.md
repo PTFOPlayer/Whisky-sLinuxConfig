@@ -5,7 +5,15 @@ Nie nie będę robił readme po angielsku tak jak configi
 Na start mój główny projekt który niektórzy lubią nazywać moim systemem: Nazwany przez moją dziewczynę "Tyfus" Mój wygląd window managera którego używam na codzień.
 
 # Required packages
-## Compton/picom
+### Compton/picom
+
+Compton i Picom są to kompozytora które dodają transparencie, cienie i przejścia. Nie jest konieczne ich używanie ale znacznie umilają wygląd całości.
+
+Żeby dodać config dla comptona trzeba utworzyć w katalogu ~\.config plik o nazwie compton.conf
+Następnie trzeba wykonac zwykłe kopiuj wklej mojego pliku
+
+Picom jest w trakcie tworzenia przeze mnie więc udostępnię go później pomimo że osobiście bardziej podoba mi się picom
+
 Bazowane na debianie:
 
 $ sudo apt-get install compton
