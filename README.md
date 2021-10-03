@@ -60,6 +60,8 @@ $ sudo pacman -S i3status
 Osoboscie lubie rofi jako ze Dmenu jest zbyt podobne wygladem do status bara
 Mozna dokonac zmiany w configu i3config, wszystko zostalo tam opisane przez tworce i3wm wiec nie powinno byc problemu z zmiana tego lecz i tak trzeba jedo i drugie zainstalowac. Napisze tylko komendy dla ROFI
 
+Mój config ROFI jest w trakcie tworzenia więc dodam go później razem z opisem wprowadzenia zmian
+
 Debian 
 
 $ sudo apt-get install rofi
