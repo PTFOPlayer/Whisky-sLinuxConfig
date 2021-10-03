@@ -28,6 +28,14 @@ Arch:
 $ sudo pacman -S i3
 
 Trzeba jeszcze pamietac o zmianie DE na to i3, w Debianie i Manjaro wystarczy zmienic ustawienie w prawym dolnym rogu ekranu podczas logowania, w Raspbianie wiaze sie to niestety z modyfikowaniem plikow systemu, a w archu jesli sie nie myle to jak nie mamy zianstalowanego zadnego innego DE to domyslnie nam wejdzie do i3
+
+Plik config znajduje się domyślnie w:
+
+~/.config/i3/config
+
+Wystarczy podmienić kod w tym pliku na ten ode mnie poprzez zwykłe kopiuj/wklej
+
+Po wciśnięciu konfiguracji $mod+shift+r i następnym reboot zmiany powinny zostać zaaplikowane, to samo się będzie tyczyć i3status i wszystkich konfigów które tu wstawilem
 ### Feh 
 Debian:
 
