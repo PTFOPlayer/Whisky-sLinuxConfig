@@ -68,7 +68,17 @@ $ sudo pacman -S i3status
 Osoboscie lubie rofi jako ze Dmenu jest zbyt podobne wygladem do status bara
 Mozna dokonac zmiany w configu i3config, wszystko zostalo tam opisane przez tworce i3wm wiec nie powinno byc problemu z zmiana tego lecz i tak trzeba jedo i drugie zainstalowac. Napisze tylko komendy dla ROFI
 
-Mój config ROFI jest w trakcie tworzenia więc dodam go później razem z opisem wprowadzenia zmian
+Config Rofi jest troche bardziej skomplikowany do dodania jako ze wymaga on stworzenia folderow w odpowiednim miejscu. 
+
+W folderze ~/.config/ trzeba utworzyc folder /rofi/
+
+$ mkdir /rofi/ && cd /rofi/
+
+Nastepnie trzeba utworzyc odpowiednie pliki i podfoldery a wiec:
+
+$ touch config.rasi && mkdir themes && touch <nazwa motywu>.rasi
+
+Potem zwykle kopjuj wklej do pliku config.rasi i odpowiednio do <nazwa motywu>.rasi , jezeli postanowimy nadac inna nazwe motywu niz theme1.rasi niestety ale trzeba bedzie dokonac modyfikacji w kodzie ustawiajac nazwe pliku z motywem w odpowiednim miejscu 
 
 Debian 
 
