@@ -1,42 +1,36 @@
 # MyI3WM
 
-Nie nie będę robił readme po angielsku tak jak configi
+Jest to projekt Window tiling managera który ma być dostępny w wersji gotowej i ma wymagać jedynie minimalnej konfiguracji przez urzytkownika
 
-Na start mój główny projekt który niektórzy lubią nazywać moim systemem: Nazwany przez moją dziewczynę "Tyfus" Mój wygląd window managera którego używam na codzień.
+
+# Linux baza
+Co do bazy: osobiście urzywam Manjaro i wszystko będzie tworzone pod Manjaro i systemy bazowane na archu, jednak nie wykluczam późniejszej możliwości stworzenia wersji na systemy bazowane na debianie.
+
+Manjaro: https://manjaro.org/
+
+
 
 # Required packages
-### Compton/picom
+### Picom
 
-Compton i Picom są to kompozytora które dodają transparencie, cienie i przejścia. Nie jest konieczne ich używanie ale znacznie umilają wygląd całości.
+Picom to kompozytor który dodaje transparencje, cienie i przejścia. Znacznie umila wygląd całości
 
-Żeby dodać config dla comptona trzeba utworzyć w katalogu ~\.config plik o nazwie compton.conf
+Żeby dodać config dla picom trzeba znaleźć w katalogu ~\.config plik o nazwie picom.conf. Plik możę być konieczny do stworzenia a następnie przypisania go do picoma za pomocą:
+
+$ picom --config /path/to/file/
+
 Następnie trzeba wykonac zwykłe kopiuj wklej mojego pliku
 
-Picom jest w trakcie tworzenia przeze mnie więc udostępnię go później pomimo że osobiście bardziej podoba mi się picom
-
-Bazowane na debianie:
-
-$ sudo apt-get install compton
-
-Bazowane na Archu:
+Aby zainstalować picom wystarczy urzyc komendy :
 
 $ sudo pacman -S picom
 
-### I3wm (polecam osobiście wersję i3-gaps z repo airblader) 
-Instalacja wersji airbladera niestety nie zostanie przeze mnie opisana lecz zapraszam do jego repo:https://github.com/Airblader/i3
-
-Mozna rownierz zainstalowac wersje zwykla lecz nie gwaratnuje poprawnego dzialania gapsow na debianie
-
-Debian:
-
-$ sudo apt-get install i3
-
-Arch:
+### I3wm 
+Instalacja
 
 $ sudo pacman -S i3
 
-Trzeba jeszcze pamietac o zmianie DE na to i3, w Debianie i Manjaro wystarczy zmienic ustawienie w prawym dolnym rogu ekranu podczas logowania, w Raspbianie wiaze sie to niestety z modyfikowaniem plikow systemu, a w archu jesli sie nie myle to jak nie mamy zianstalowanego zadnego innego DE to domyslnie nam wejdzie do i3
-
+Trzeba jeszcze pamietac o zmianie DE na to i3, w Manjaro wystarczy zmienic ustawienie w prawym dolnym rogu ekranu podczas logowania.
 Plik config znajduje się domyślnie w:
 
 ~/.config/i3/config
@@ -45,24 +39,26 @@ Wystarczy podmienić kod w tym pliku na ten ode mnie poprzez zwykłe kopiuj/wkle
 
 Po wciśnięciu konfiguracji $mod+shift+r i następnym reboot zmiany powinny zostać zaaplikowane, to samo się będzie tyczyć i3status i wszystkich konfigów które tu wstawilem
 ### Feh 
-Debian:
+Instalacja:
 
-$ sudo apt-get install compton
+$ sudo pacman -S feh
 
-Arch:
-
-$ sudo pacman -S picom
+w pliku config do i3 jest linijka z komendą za pomocą której ustawia się tapetę, wystarczy podmienić /path/to/image na lokalizacje i nazwę pliku z tapetą
 
 ### I3 status
-Zazwyczaj jest razem z i3 domyslnie zainstalowany lecz w przypadku repo Airbladera trzeba samemu doinstalowac 
+Instaluje się automatycznie
 
-Debian:
+config nalerzy stworzyć w folderze ~/.config/
 
-$ sudo apt-get install i3status
+zalecam dodanie folderu o nazwie i3status 
 
-Arch:
+$ cd .config
+$ mkdir i3status
+$ nano i3status.conf
 
-$ sudo pacman -S i3status
+następnie kopjujemy zawartość pliku config 
+
+w pliku config i3 (~/.config/i3/config) jest już wprowadzona linijka która powoduje że i3 config jest automatycznie czytany z lokalizacji i pliku ~/.config/i3status/i3status.conf. Jeżeli najpierw ustawimy plik config i3 a dopiero potem config i3status to może nam wyrzucać błąd w miejscu paska.
 
 ### ROFI/Dmenu
 Osoboscie lubie rofi jako ze Dmenu jest zbyt podobne wygladem do status bara
@@ -80,22 +76,8 @@ $ touch config.rasi && mkdir themes && touch <nazwa motywu>.rasi
 
 Potem zwykle kopjuj wklej do pliku config.rasi i odpowiednio do <nazwa motywu>.rasi , jezeli postanowimy nadac inna nazwe motywu niz theme1.rasi niestety ale trzeba bedzie dokonac modyfikacji w kodzie ustawiajac nazwe pliku z motywem w odpowiednim miejscu 
 
-Debian 
-
-$ sudo apt-get install rofi
-
-Arch:
+Instalacja:
 
 $ sudo pacman -S rofi
 
-# Linux baza
-Co do bazy: 
-Rekomenduje Archa, Manjaro, Debiana lub Raspbiana jesli pracujemny na czyms z procesorem ARM
-
-Manjaro: https://manjaro.org/
-
-Arch: https://archlinux.org/
-
-Debian: https://www.debian.org/index.pl.html
-
-Raspbian: https://www.raspberrypi.org/software/operating-systems/
+### EOF ###
