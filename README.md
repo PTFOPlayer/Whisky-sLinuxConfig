@@ -11,6 +11,34 @@ Manjaro: https://manjaro.org/
 
 
 # Required packages
+###Kitty (terminal emulator)
+Osobiście urzywam kitty tylko i wyłącznie ze względu na to iż neofetch bardzo lubi się z backend kitty
+
+instalacja
+
+$ sudo pacman -S kitty
+
+Terminal jest ustawiony jako domyślny w pliku i3 config więc proszę najpierw zainstalować terminal a dopiero następnie wprowadzać zmiany dla tego pliku.
+W innym wypadku niestety może dojść do braku możliwości zmiany ustawień i konieczności ponownej instalacji systemu. (Można awaryjnie odpalić terminal poprzez Dmenu/Rofi lecz domyślnie żadne z nich nie jest zainstalowane i plik config i3 jest skonfigurowany pod obsługę rofi.)
+
+Mój wygląd kitty
+
+kitty automatycznie szuka pliku config w ~/.config/kitty/kitty.conf
+jednak jest możliwe ręczne ustawienie pliku za pomocą komendy 
+
+$ kitty --config /path/to/config
+
+mój plik config kopjujemy w miejsce tego domyślnego, nieśmiale się przyznam że tutaj jest mało zmian więc ustawienie tego pliku wpływa jedynie na przezroczystość kitty i lokalizacje jego motywu 
+
+motyw 
+
+motyw będzie znajdował się w katalogu ~/.config/kitty/kitty-themes
+
+niestety trzeba stworzyć ten katalog komendą:
+
+$ cd ~/.config/kitty && mkdir kitty-themes
+
+następnie tworzymy plik o nazwie theme1.conf (można utworzyć inną nazwę lecz taka jest domyślnie zawarta w moim pliku kitty.conf) a potem zwykłe kopjuj wklej mojego pliku
 ### Picom
 
 Picom to kompozytor który dodaje transparencje, cienie i przejścia. Znacznie umila wygląd całości
