@@ -4,7 +4,7 @@ Jest to projekt Window tiling managera który ma być dostępny w wersji gotowej
 
 
 # Linux baza
-Co do bazy: osobiście urzywam Manjaro i wszystko będzie tworzone pod Manjaro i systemy bazowane na archu, jednak nie wykluczam późniejszej możliwości stworzenia wersji na systemy bazowane na debianie.
+Co do bazy: osobiście używam Manjaro i wszystko będzie tworzone pod Manjaro i systemy bazowane na archu, jednak nie wykluczam późniejszej możliwości stworzenia wersji na systemy bazowane na debianie.
 
 Manjaro: https://manjaro.org/
 
@@ -12,7 +12,7 @@ Manjaro: https://manjaro.org/
 
 # Required packages
 ### Kitty (terminal emulator)
-Osobiście urzywam kitty tylko i wyłącznie ze względu na to iż neofetch bardzo lubi się z backend kitty
+Osobiście używam kitty tylko i wyłącznie ze względu na to, że neofetch bardzo lubi się z backend kitty
 
 instalacja
 
@@ -28,7 +28,7 @@ jednak jest możliwe ręczne ustawienie pliku za pomocą komendy
 
 $ kitty --config /path/to/config
 
-mój plik config kopjujemy w miejsce tego domyślnego, nieśmiale się przyznam że tutaj jest mało zmian więc ustawienie tego pliku wpływa jedynie na przezroczystość kitty i lokalizacje jego motywu 
+mój plik config kopjujemy w miejsce tego domyślnego, nieśmiale się przyznam, że tutaj jest mało zmian więc ustawienie tego pliku wpływa jedynie na przezroczystość kitty i lokalizacje jego motywu 
 
 motyw 
 
@@ -89,8 +89,8 @@ następnie kopjujemy zawartość pliku config
 w pliku config i3 (~/.config/i3/config) jest już wprowadzona linijka która powoduje że i3 config jest automatycznie czytany z lokalizacji i pliku ~/.config/i3status/i3status.conf. Jeżeli najpierw ustawimy plik config i3 a dopiero potem config i3status to może nam wyrzucać błąd w miejscu paska.
 
 ### ROFI/Dmenu
-Osoboscie lubie rofi jako ze Dmenu jest zbyt podobne wygladem do status bara
-Mozna dokonac zmiany w configu i3config, wszystko zostalo tam opisane przez tworce i3wm wiec nie powinno byc problemu z zmiana tego lecz i tak trzeba jedo i drugie zainstalowac. Napisze tylko komendy dla ROFI
+Osoboscie lubie rofi jako, że Dmenu jest zbyt podobne wygladem do status bara
+Można dokonac zmiany w configu i3 config, wszystko zostalo tam opisane przez twórce i3wm wiec nie powinno byc problemu z zmiana tego lecz i tak trzeba jedo i drugie zainstalować. Napisze tylko komendy dla ROFI
 
 Config Rofi jest troche bardziej skomplikowany do dodania jako ze wymaga on stworzenia folderow w odpowiednim miejscu. 
 
