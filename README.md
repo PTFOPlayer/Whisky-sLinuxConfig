@@ -43,7 +43,7 @@ następnie tworzymy plik o nazwie theme1.conf (można utworzyć inną nazwę lec
 
 Picom to kompozytor który dodaje transparencje, cienie i przejścia. Znacznie umila wygląd całości
 
-Żeby dodać config dla picom trzeba znaleźć w katalogu ~\.config plik o nazwie picom.conf. Plik możę być konieczny do stworzenia a następnie przypisania go do picoma za pomocą:
+Żeby dodać config dla picom trzeba znaleźć w katalogu ~\.config plik o nazwie picom.conf. Plik może być konieczny do stworzenia a następnie przypisania go do picoma za pomocą:
 
 $ picom --config /path/to/file/
 
