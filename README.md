@@ -47,7 +47,7 @@ Picom to kompozytor który dodaje transparencje, cienie i przejścia. Znacznie u
 
 $ picom --config /path/to/file/
 
-Następnie trzeba wykonac zwykłe kopiuj wklej mojego pliku
+Następnie trzeba wykonać zwykłe kopiuj wklej mojego pliku
 
 Aby zainstalować picom wystarczy urzyc komendy :
 
@@ -58,7 +58,8 @@ Instalacja
 
 $ sudo pacman -S i3
 
-Trzeba jeszcze pamietac o zmianie DE na to i3, w Manjaro wystarczy zmienic ustawienie w prawym dolnym rogu ekranu podczas logowania.
+Trzeba jeszcze pamietać o zmianie DE na to i3, w Manjaro wystarczy zmienić ustawienie w prawym dolnym rogu ekranu podczas logowania.
+
 Plik config znajduje się domyślnie w:
 
 ~/.config/i3/config
@@ -89,8 +90,8 @@ następnie kopjujemy zawartość pliku config
 w pliku config i3 (~/.config/i3/config) jest już wprowadzona linijka która powoduje że i3 config jest automatycznie czytany z lokalizacji i pliku ~/.config/i3status/i3status.conf. Jeżeli najpierw ustawimy plik config i3 a dopiero potem config i3status to może nam wyrzucać błąd w miejscu paska.
 
 ### ROFI/Dmenu
-Osoboscie lubie rofi jako, że Dmenu jest zbyt podobne wygladem do status bara
-Można dokonac zmiany w configu i3 config, wszystko zostalo tam opisane przez twórce i3wm wiec nie powinno byc problemu z zmiana tego lecz i tak trzeba jedo i drugie zainstalować. Napisze tylko komendy dla ROFI
+Osoboście lubie rofi jako, że Dmenu jest zbyt podobne wygladem do status bara
+Można dokonać zmiany w configu i3 config, wszystko zostalo tam opisane przez twórce i3wm więc nie powinno byc problemu z zmiana tego lecz i tak trzeba jedo i drugie zainstalować. Napisze tylko komendy dla ROFI
 
 Config Rofi jest troche bardziej skomplikowany do dodania jako ze wymaga on stworzenia folderow w odpowiednim miejscu. 
 
