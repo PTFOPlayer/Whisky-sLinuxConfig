@@ -6,7 +6,7 @@ Jest to projekt Window tiling managera który ma być dostępny w wersji gotowej
 # Linux baza
 Co do bazy: osobiście używam Manjaro i wszystko będzie tworzone pod Manjaro i systemy bazowane na archu, jednak nie wykluczam późniejszej możliwości stworzenia wersji na systemy bazowane na debianie.
 
-Manjaro: https://manjaro.org/
+Manjaro:' https://manjaro.org/ '
 
 
 
