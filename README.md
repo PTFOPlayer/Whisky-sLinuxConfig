@@ -11,7 +11,7 @@ Manjaro: https://manjaro.org/
 
 
 # Required packages
-###Kitty (terminal emulator)
+### Kitty (terminal emulator)
 Osobiście urzywam kitty tylko i wyłącznie ze względu na to iż neofetch bardzo lubi się z backend kitty
 
 instalacja
