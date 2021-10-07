@@ -63,7 +63,8 @@ cd ~/.config/
 mkdir i3status
 
 fi
-
+cd ~/.config
+mkdir kitty
 cp $DIR/kitty/kitty.conf ~/.config/kitty/kitty.conf
 cd ~/.config/kitty
 mkdir kitty-themes
