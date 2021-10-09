@@ -18,7 +18,7 @@ Klonowanie:
 ```
 $ git clone https://github.com/PTFOPlayer/MyI3WM
 ```
-Klonowanie utworzy katalog o nazwie MyI3WM i skopjuje do niego pliki z tego repozytorium, trzeba do niego przejść żeby kontynuować instalacje
+Klonowanie utworzy katalog o nazwie MyI3WM i skopiuje do niego pliki z tego repozytorium, trzeba do niego przejść żeby kontynuować instalacje
 ```
 $ cd ~/MyI3WM
 ```
