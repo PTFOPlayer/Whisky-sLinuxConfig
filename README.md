@@ -33,6 +33,6 @@ Instalacja została zautomatyzowana na tyle ile się dało jednak nie wszystko j
 
 Niestety ale do aktualizacjie nie wystarczy `sudo pacman -Syu`, należy ponownie skopiować repo i wykonać ponowną instalacje ponieważ będę dokonywał zmian w plikach które muszą zostać podmienione
 
-#PINGUIN  
+# PINGUIN  
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> </p>
