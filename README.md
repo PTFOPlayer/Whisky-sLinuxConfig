@@ -1,6 +1,6 @@
 # MyI3WM
 
-Jest to projekt Window tiling managera który ma być dostępny w wersji gotowej i ma wymagać jedynie minimalnej konfiguracji przez urzytkownika
+Jest to projekt Window tiling managera który ma być dostępny w wersji gotowej i ma wymagać jedynie minimalnej konfiguracji przez użytkownika
 
 
 # Linux baza
