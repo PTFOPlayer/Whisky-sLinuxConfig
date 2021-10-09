@@ -26,6 +26,7 @@ Instalacja:
 ```
 $ chmod +x install.sh && ./install.sh
 ```
+Po tym trzeba już tylko zmienić w ekranie logowania DE, w Manjaro można to zrobić w prawym dolnym rogu
 
 Instalacja została zautomatyzowana na tyle ile się dało jednak nie wszystko jest idealne, proszę o raportowanie błędów związanych z instalacją 
 
