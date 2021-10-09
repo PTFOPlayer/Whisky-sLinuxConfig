@@ -31,7 +31,7 @@ Instalacja została zautomatyzowana na tyle ile się dało jednak nie wszystko j
 
 !!błędy związane z nieistnienem folderów są poprawne i są elementem działania instalatora!!
 
-Niestety ale do aktualizacjie nie wystarczy `sudo pacman -Syu` 
+Niestety ale do aktualizacjie nie wystarczy `sudo pacman -Syu`, należy ponownie skopiować repo i wykonać ponowną instalacje ponieważ będę dokonywał zmian w plikach które muszą zostać podmienione
 
 #PINGUIN  
 <h3 align="left">Languages and Tools:</h3>
