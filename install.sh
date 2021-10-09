@@ -72,7 +72,7 @@ cp $DIR/kitty/kitty-themes/theme1.conf ~/.config/kitty/kitty-themes/theme1.conf
 
 cp $DIR/I3status ~/.config/i3status/i3status.conf
 
-cp $DIR/INPROGRESS/.bashrc ~/.bashrc
+cp $DIR/.bashrc ~/.bashrc
 #cd $DIR 
 
  
