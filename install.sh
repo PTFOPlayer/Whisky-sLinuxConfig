@@ -9,6 +9,7 @@ sudo pacman -S neofetch --noconfirm
 sudo pacman -S powerline --noconfirm
 sudo pacman -S fonts-powerline --noconfirm
 sudo pacman -S flameshot --noconfirm
+sudo pacman -S polybar --noconfirm
 
 cd ~/.config/
 FILE1="~/.config/i3/config"
