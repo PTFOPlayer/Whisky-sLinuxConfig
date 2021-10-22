@@ -213,3 +213,8 @@ client.focused_inactive     #6b0000 #6b0000 #7B9F35
 #misc auto start
 exec --no-startup-id flameshot
 
+#polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+#power managment
+exec --no-startup-id xfce4-power-manager
