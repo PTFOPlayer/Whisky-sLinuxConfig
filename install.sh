@@ -75,7 +75,10 @@ cp $DIR/I3status ~/.config/i3status/i3status.conf
 
 cd ~/.config
 mkdir polybar
-cp $DIR/polybar/ ~/.config/polybar
+cp $DIR/polybar/config ~/.config/polybar
+cp $DIR/polybar/launch.sh ~/.config/polybar
+cd ~/.config/polybar
+chmod +x launch.sh
 
 cp $DIR/.bashrc ~/.bashrc
 #cd $DIR 
