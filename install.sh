@@ -5,6 +5,7 @@ sudo pacman -S i3 --noconfirm
 sudo pacman -S kitty --noconfirm
 sudo pacman -S rofi --noconfirm
 sudo pacman -S picom --noconfirm
+sudo pacman -S feh --noconfirm
 sudo pacman -S neofetch --noconfirm
 sudo pacman -S flameshot --noconfirm
 sudo pacman -S polybar --noconfirm
@@ -63,6 +64,7 @@ mkdir i3status
 
 fi
 cd ~/.config
+
 mkdir kitty
 cp $DIR/kitty/kitty.conf ~/.config/kitty/kitty.conf
 cd ~/.config/kitty
@@ -70,6 +72,10 @@ mkdir kitty-themes
 cp $DIR/kitty/kitty-themes/theme1.conf ~/.config/kitty/kitty-themes/theme1.conf
 
 cp $DIR/I3status ~/.config/i3status/i3status.conf
+
+cd ~/.config
+mkdir polybar
+cp $DIR/polybar/ ~/.config/polybar
 
 cp $DIR/.bashrc ~/.bashrc
 #cd $DIR 
