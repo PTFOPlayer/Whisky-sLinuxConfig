@@ -6,8 +6,6 @@ sudo pacman -S kitty --noconfirm
 sudo pacman -S rofi --noconfirm
 sudo pacman -S picom --noconfirm
 sudo pacman -S neofetch --noconfirm
-sudo pacman -S powerline --noconfirm
-sudo pacman -S fonts-powerline --noconfirm
 sudo pacman -S flameshot --noconfirm
 sudo pacman -S polybar --noconfirm
 
