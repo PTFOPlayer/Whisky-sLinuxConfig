@@ -1,5 +1,5 @@
 # MyI3WM
-printf: "This is a project of Window Manager that is to be available in a ready-to-use version, and requires only minimal configuration by the end user."  
+This is a project of Window Manager that is to be available in a ready-to-use version, and requires only minimal configuration by the end user.
 # Linux baza
 Co do bazy: osobiście używam Manjaro i wszystko będzie tworzone pod Manjaro i systemy bazowane na archu, jednak nie wykluczam późniejszej możliwości stworzenia wersji na systemy bazowane na debianie.
 
