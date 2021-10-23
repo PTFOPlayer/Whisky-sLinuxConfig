@@ -86,7 +86,7 @@ cp $DIR/wallpapers/420.jpg ~/.config/wallpapers/normal.jpg
 cp $DIR/wallpapers/420.1.jpg ~/.config/wallpapers/noobs.jpg
 
 cp $DIR/.bashrc ~/.bashrc
-#cd $DIR 
+cd ~ 
 
  
 
