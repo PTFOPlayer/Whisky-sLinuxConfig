@@ -1,8 +1,5 @@
 # MyI3WM
-
-Jest to projekt Window tiling managera który ma być dostępny w wersji gotowej i ma wymagać jedynie minimalnej konfiguracji przez użytkownika
-
-
+printf: "This is a project of Window Manager that is to be available in a ready-to-use version, and requires only minimal configuration by the end user."  
 # Linux baza
 Co do bazy: osobiście używam Manjaro i wszystko będzie tworzone pod Manjaro i systemy bazowane na archu, jednak nie wykluczam późniejszej możliwości stworzenia wersji na systemy bazowane na debianie.
 
