@@ -45,7 +45,7 @@ configuration {
 /*	scroll-method: 0;*/
 //	window-format: "{30}   {30}   {30}";
 	click-to-exit: false;
-	theme: "theme1.rasi";
+	theme: "~/.config/rofi/rofi-themes/theme1.rasi";
 /*	max-history-size: 25;*/
 /*	combi-hide-mode-prefix: false;*/
 /*	matching-negate-char: '-' /* unsupported */;*/
