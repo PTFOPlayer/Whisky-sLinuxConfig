@@ -1,7 +1,7 @@
 # MyI3WM
 This is a project of Window Manager that is to be available in a ready-to-use version, and requires only minimal configuration by the end user.
-# Linux baza
-Co do bazy: osobiście używam Manjaro i wszystko będzie tworzone pod Manjaro i systemy bazowane na archu, jednak nie wykluczam późniejszej możliwości stworzenia wersji na systemy bazowane na debianie.
+# Firstly you need a base
+I am curently using Manjaro so everything will be done to fit with Manjaro and other Arch based distro. In the future i will think of making a version for debian based distros.
 
 Manjaro:
 ```
@@ -9,29 +9,26 @@ https://manjaro.org/
 ```
 # Instalation
 
-Wystarczy parę prostych komend:
+You need to type only few commands.
 
-Klonowanie:
+Clone:
 ```
 $ git clone https://github.com/PTFOPlayer/MyI3WM
 ```
-Klonowanie utworzy katalog o nazwie MyI3WM i skopiuje do niego pliki z tego repozytorium, trzeba do niego przejść żeby kontynuować instalacje
+Then you need to go to directory where you cloned repository.
 ```
-$ cd ~/MyI3WM
+$ cd /path/to/repository/MyI3WM
 ```
-Instalacja:
+At the end you only need to launch instalation script
 ```
 $ chmod +x install.sh && ./install.sh
 ```
-Po tym trzeba już tylko zmienić w ekranie logowania DE, w Manjaro można to zrobić w prawym dolnym rogu
 
-Instalacja została zautomatyzowana na tyle ile się dało jednak nie wszystko jest idealne, proszę o raportowanie błędów związanych z instalacją 
+Instalation is as automated as it can be, but there can still be thing that you need to do by yourself. 
+!!errors related to non-existent folders are correct and are part of the installer operation!!
 
-!!błędy związane z nieistnienem folderów są poprawne i są elementem działania instalatora!!
 
-Niestety ale do aktualizacjie nie wystarczy `sudo pacman -Syu`, należy ponownie skopiować repo i wykonać ponowną instalacje ponieważ będę dokonywał zmian w plikach które muszą zostać podmienione
-
-!!Aktualnie na VM występuje błąd który powoduje nie działanie przezroczystości oraz drugi błąd który powoduje że czasem plik `install.sh` może nie skopiować plików, w takim wypadku trzeba go odpalić jeszcze raz!!
+!!Currently there is a bug on the VM that causes transparency not to work, and a second bug that sometimes causes the `install.sh` file to fail to copy the files, in which case you have to launch it again!!
 
 
 <h3 align="left">Languages and Tools:</h3>
