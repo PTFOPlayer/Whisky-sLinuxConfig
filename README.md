@@ -27,8 +27,11 @@ $ chmod +x install.sh && ./install.sh
 Instalation is as automated as it can be, but there can still be thing that you need to do by yourself. 
 !!errors related to non-existent folders are correct and are part of the installer operation!!
 
-
-!!Currently there is a bug on the VM that causes transparency not to work, and a second bug that sometimes causes the `install.sh` file to fail to copy the files, in which case you have to launch it again!!
+# current errors
+!!
+Currently there is a bug on the VM that causes transparency not to work, to fix this issue you need eddit file `~/.config/picom.conf` by commenting vsync line using `#`  
+A second bug that sometimes causes the `install.sh` file to fail to copy the files, in which case you have to launch it again
+!!
 
 
 <h3 align="left">Languages and Tools:</h3>
