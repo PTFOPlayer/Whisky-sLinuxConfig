@@ -80,6 +80,11 @@ cp $DIR/polybar/launch.sh ~/.config/polybar
 cd ~/.config/polybar
 chmod +x launch.sh
 
+cd ~/.config
+mkdir wallpapers
+cp $DIR/wallpapers/420.jpg ~/.config/wallpapers/normal.jpg
+cp $DIR/wallpapers/420.1.jpg ~/.config/wallpapers/noobs.jpg
+
 cp $DIR/.bashrc ~/.bashrc
 #cd $DIR 
 
