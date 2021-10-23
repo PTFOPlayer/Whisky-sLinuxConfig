@@ -136,12 +136,12 @@ ex ()
   fi
 }
 
-neofetch --backend kitty --size 400 --source ~/Background/h3.jpg
+neofetch --backend kitty --size 400 --source ~/path/to/image.jpg
 
 printf "\n What should i do for you Otōsan? \n"
 printf " I'm waiting for your command \n \n"
 
-alias clr="clear && neofetch --backend kitty --size 400 --source ~/Background/h3.jpg"
+alias clr="clear && neofetch --backend kitty --size 400 --source ~/path/to/image.jpg"
 
 
 #FUNCTIONS
