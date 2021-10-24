@@ -15,7 +15,7 @@ mkdir installs
 cd installs
 git clone https://aur.archlinux.org/polybar.git 
 cd polybar
-makepkg -si
+makepkg -si~--noconfirm
 
 cd ~/.config/
 FILE1="~/.config/i3/config"
