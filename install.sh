@@ -1,5 +1,6 @@
 DIR=$(pwd)
 echo "$DIR"
+sudo pacman -S base-devel --noconfirm
 sudo pacman -Syu --noconfirm
 sudo pacman -S i3 --noconfirm
 sudo pacman -S kitty --noconfirm
@@ -8,7 +9,12 @@ sudo pacman -S picom --noconfirm
 sudo pacman -S feh --noconfirm
 sudo pacman -S neofetch --noconfirm
 sudo pacman -S flameshot --noconfirm
-sudo pacman -S polybar --noconfirm
+cd ~/.config
+mkdir installs
+cd installs
+git clone https://aur.archlinux.org/polybar.git 
+cd polybar
+makepkg -si
 
 cd ~/.config/
 FILE1="~/.config/i3/config"
