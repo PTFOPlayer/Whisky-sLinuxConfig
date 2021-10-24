@@ -9,6 +9,7 @@ sudo pacman -S picom --noconfirm
 sudo pacman -S feh --noconfirm
 sudo pacman -S neofetch --noconfirm
 sudo pacman -S flameshot --noconfirm
+sudo pacman -S polybar --noconfirm
 cd ~/.config
 mkdir installs
 cd installs
