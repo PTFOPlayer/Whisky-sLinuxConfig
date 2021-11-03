@@ -10,6 +10,7 @@ sudo pacman -S feh --noconfirm
 sudo pacman -S neofetch --noconfirm
 sudo pacman -S flameshot --noconfirm
 sudo pacman -S polybar --noconfirm
+sudo pamac install lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm
 cd ~/.config
 mkdir installs
 cd installs
