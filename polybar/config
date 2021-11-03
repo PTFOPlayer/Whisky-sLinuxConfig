@@ -22,7 +22,7 @@ line-color = #f00
 border-size = 2
 border-color = #00000000
 
-padding-left = 0
+padding-left = 2
 padding-right = 2
 
 module-margin-left = 1
@@ -35,7 +35,7 @@ font-2 = siji:pixelsize=10;1
 modules-right = i3 pulseaudio
 modules-center = pacman-updates
 modules-left = filesystem memory cpu wlan eth battery temperature date powermenu
-separator = |
+separator = 
 module-margin = 2
 tray-position = right
 tray-detach = true
