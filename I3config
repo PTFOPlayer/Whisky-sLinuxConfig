@@ -208,7 +208,7 @@ client.focused              #d40000 #d40000 #f0d9b0
 client.unfocused            #6b0000 #6b0000 #f0d9b0
 client.focused_inactive     #6b0000 #6b0000 #7B9F35
 #wallpaper
-#exec --no-startup-id feh --bg-scale ~/.config/wallpapers/normal.jpg
+exec --no-startup-id feh --bg-scale ~/.config/wallpapers/noobs.jpg
 
 #misc auto start
 exec --no-startup-id flameshot
