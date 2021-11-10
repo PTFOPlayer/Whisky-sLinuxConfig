@@ -1,15 +1,6 @@
 DIR=$(pwd)
 echo "$DIR"
-sudo pacman -S base-devel --noconfirm
-sudo pacman -Syu --noconfirm
-sudo pacman -S i3 --noconfirm
-sudo pacman -S kitty --noconfirm
-sudo pacman -S rofi --noconfirm
-sudo pacman -S picom --noconfirm
-sudo pacman -S feh --noconfirm
-sudo pacman -S neofetch --noconfirm
-sudo pacman -S flameshot --noconfirm
-sudo pacman -S polybar --noconfirm
+sudo pacman -Syu base-devel i3 kitty rofi picom feh neofetch flameshot polybar --noconfirm
 sudo pamac install lightdm-slick-greeter lightdm-settings --noconfirm
 cd ~/.config
 mkdir installs
