@@ -1,0 +1,1 @@
+cat pacman-deps | xargs sudo pacman -S --noconfirm

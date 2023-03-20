@@ -1,5 +1,5 @@
 qemu
-virt-Manager
+virt-manager
 cuda
 gcc
 cmake
@@ -12,3 +12,13 @@ kitty
 git
 dkms
 mesa-utils
+snapd
+unzip
+tree
+python
+npm
+jre-openjdk
+jdk-openjdk
+sl
+wget 
+curl
